@@ -41,6 +41,6 @@ server.on("request", async (req, res) => {
     }
 });
 
-server.listen(process.env.PORT || 8080, "localhost", () => {
+server.listen(process.env.PORT || 8080, () => {
     console.log("Server is listening on port 8080!");
 });
